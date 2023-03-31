@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="mediastyle.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> YourTour </title>
+        <meta name="description" content=" yourtour.ru - отправься в путешествие, оформив его не выходя из дома!" />
+        <meta name="keywords" content="отдых, туры, мир, релакс" />
+        <link rel="icon" href="favicon/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon" />
+    </head>
+    <body>
+        <div class = "bg_image">
+        <header>
+            <div class = "header_logo" id = "header">
+                <p><b>YourTour</b></p>
+                <nav>
+                    <div class = "top_nav" id = "myTop_nav">
+                        <a href = "#">Туры</a>
+                        <a href = "#">Создать тур</a>
+                        <a href = "#">Отзывы</a>
+                        <a href = "#">Истории</a>
+                        <a href = "" class = "number" id = "number">+7 999 999 99 99</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    <main>
+            <div class = "main_welcome">
+                <h1>Идеальные <br> путешествия <br> существуют</h1>
+                <p>Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
+                <form>
+                    <input type = "button" name = "tour" value = "Найти тур" id = "tour_1" class = "button_tour"> 
+                </form>
+            </div>
+        <section>
+            <div class = "tour_selection">
+            <h2>Выбери свой тур</h2>
+            <a href = "#" id = "checked_yellow">Популярные</a>
+            <a href = "#" id = "checked_black">Авторские</a>
+            <a href = "#" id = "checked_black">Походы</a>
+            <a href = "#" id = "checked_black">Сплавы</a>
+            <a href = "#" id = "checked_black">Велопрогулки</a>
+                <div class = "tour_cards"> 
+
+                 <div class = "tour_cards_top"> 
+                    
+                    
+                            <div class = "card1">
+                                <h3>Путешествие в горы</h3>
+                                <p>от 80 000 руб</p>
+                                <input type ="button" name = "more_1" value = "Подробнее" id = "more_1" class = "button_more_1">
+                                <img src = "images/Vector.svg" width = "22px" height="15px" class = "button_vector_1" alt="">
+                            </div>
+
+                            <div class = "card2">
+                                <h3>Путешествие в горы </h3>
+                                <p>от 80 000 руб</p>
+                                <input type = "button" name = "more_2" value = "Подробнее" id = "more_2" class = "button_more_2">
+                                <img src = "images/Vector.svg" width="22px" height="15px" class = "button_vector_2" alt="">
+                            </div> 
+                           
+                            <div class = "card3">
+                                <h3>Путешествие в горы</h3>
+                                <p class>от 80 000 руб</p> 
+                                <input type = "button" name = "more_3" value = "Подробнее" id = "more_3" class = "button_more_3">  
+                                <img src = "images/Vector.svg" width="22px" height="15px" class = "button_vector_3" alt="">                   
+                            </div>
+                        </div>
+                <div class = "tour_cards_bottom">
+                        <div class = "card4">
+                            <h3>Путешествие в горы</h3>
+                            <p>от 80 000 руб</p>
+                            <input type ="button" name = "more_4" value = "Подробнее" id = "more_4" class = "button_more_4">
+                            <img src = "images/Vector.svg" width="22px" height="15px" class = "button_vector_4" alt="">
+                        </div>
+                        <div class = "card5">
+                            <h3>Путешествие в горы</h3>
+                            <p>от 80 000 руб</p>
+                            <input type ="button" name = "more_5" value = "Подробнее" id = "more_5" class = "button_more_5">
+                            <img src = "images/Vector.svg" width="22px" height="15px" class = "button_vector_5" alt="">
+                        </div>
+                        <div class = "card6">
+                            <h3>Путешествие в горы</h3>
+                            <p>от 80 000 руб</p>
+                            <input type ="button" name = "more_6" value = "Подробнее" id = "more_6" class = "button_more_6">
+                            <img src = "images/Vector.svg" width="22px" height="15px" class = "button_vector_6" alt=""> 
+                        </div>
+                    </div>
+                </div>
+             </div>
+            <div class = "collect_tour">
+                    <h2> Собери свой тур </h2>
+                    <p>Идейные соображения высшего порядка, <br> а также рамки и место обучения кадров</p>
+            <div class = "main_form">
+                <div class = "row_1">
+                    <div class = "block_name">
+                        <p>Имя</p>
+                        <input type = "text" name = "name_1" placeholder="Введите Ваше имя" class = "input_form_1" id = "forborders">
+                    </div>
+                    <div class = "block_direction">
+                        <p>Направление</p>
+                        <select class = "select_form_1" required = "required" id="select-box">
+                            <option value = "" disabled selected hidder>Куда хотите ехать</option> 
+                            <option value = "1"> Лондон </option>
+                            <option value = "2"> Кипр </option>
+                            <option value = "3"> Брюссель </option>
+                        </select>
+                    </div>      
+                </div>
+                <div class = "row_2">
+                    <div class = "block_email">
+                        <p>Email</p>
+                        <input type = "text" name = "email_1" placeholder="example@mail.ru" class = "input_form_2" id = "forborders">
+                    </div>
+                    <div class = "block_number">
+                        <p>Телефон</p>
+                        <input type = "tel" name = "num_1" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" class = "input_form_3" id = "forborders"> 
+                    </div>
+                </div>
+                <div class = "row_3">
+                    <div class = "block_start_date">
+                        <p>Дата от</p>
+                        <input type = "text" name = "date_1" placeholder="ДД.ММ.ГГГГ" class = "input_form_4" onfocus = "(this.type='date')" id = "forborders">
+                    </div>
+                    <div class = "block_finish_date">
+                        <p>Дата до</p>
+                        <input type = "text" name = "date_2" placeholder="ДД.ММ.ГГГГ" class = "input_form_5" onfocus = "(this.type='date')" id = "forborders"> 
+                    </div>
+                </div>
+                <div class = "comment">
+                    <p>Комментарий</p>
+                    <textarea type = "text" class = "input_form_6" id = "forborders"></textarea>
+                </div>
+                <div class = "row_4">
+                    <p>Вам есть 18 лет?</p>
+                    <div class = "radiobuttons">
+                        <div class = "radiobutton_yes">
+                            <input type = "radio" name = "radio_1" value = "Да" id = "color-1" class = "custom-radio"><label for = "color-1"> <p>Да</p> </label>
+                        </div>
+                        <div class = "radiobutton_no">
+                            <input type = "radio" name = "radio_1" value = "Нет" id = "color-2" class = "custom-radio"><label for = "color-2"> <p>Нет</p> </label>
+                        </div>
+                    </div>
+                </div>
+                <div class = "row_5">
+                    <div class = "checkboxs">
+                        <input type = "checkbox" name = "form_checkbox" class = "custom-checkbox" id = "form_checkbox">
+                        <label for = "form_checkbox"><p>Нажимая кнопку, я принимаю условия <a href = "#">Лицензионного договора</a></p></label>
+                    </div>
+                </div>
+                <div class = "row_6">
+                    <input type = "button" value = "Найти тур" name = "button_find_1" class = "button_find">
+                    <input type = "reset" value = "Сбросить" name = "button_reset_1" class = "button_reset">
+                </div> 
+            </div>
+            </div>
+            <div class = "reviews">
+                <div class = "block_main">
+                    <h2>Отзывы наших<br>путешественников</h2>
+                    <div class = "subtext">
+                        <p>Идейные соображения высшего порядка, а<br>также рамки и место обучения кадров</p>
+                    </div>
+                </div>
+                <div class = "reviews_example">
+                    <div class = "card_review_1">
+                        <div class = "review_1">
+                            <p>Идейные соображения высшего порядка, 
+                            а также рамки и место обучения кадров обеспечивает 
+                            широкому кругу (специалистов) участие в формировании новых предложений. 
+                            Идейные соображения высшего порядка, а также начало повседневной работы по 
+                            формированию позиции позволяет оценить значение модели развития.</p>
+                        </div>
+                        <div class = "block_review_1">
+                            <div class = "review_one_info">
+                                <h3>Мария</h3>
+                                <p>Тур: вдали от дома</p>
+                            </div>
+                            <img src = "images/maria.webp" width = "75px" height="75px" class = "maria_img" alt="">
+                        </div>
+                    </div>
+                    <div class = "card_review_2">
+                        <div class = "review_2">
+                            <p>Равным образом постоянный количественный рост и сфера нашей активности 
+                                играет важную роль в формировании системы обучения кадров, соответствует 
+                                насущным потребностям. </p> 
+                                <br>
+                             <p>Значимость этих проблем настолько очевидна, что дальнейшее развитие различных 
+                                форм деятельности обеспечивает широкому кругу (специалистов) участие в 
+                                формировании новых предложений. Повседневная практика показывает, что реализация 
+                                намеченных плановых заданий в значительной степени обуславливает создание модели развития.</p>
+                        </div>
+                        <div class = "block_review_2">
+                            <div class = "review_two_info">
+                                <h3>Павел</h3>
+                                <p>Тур: Путешествие в горы</p>
+                            </div> 
+                            <img src = "images/pavel.webp" width="75px" height="75px" class = "pavel_img" alt="">
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class = "travel_photos">
+                    <div class = "block_travel_photos">
+                        <h2>Фотографии путешествий</h2>
+                        <p>Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>
+                    </div>
+                    <div class = "photo_cards">
+                        <div class = "photo_row_1">
+                            <div class = "photos_card_1"></div>
+                            <div class = "photos_card_2"></div>
+                            <div class = "photos_card_3"></div>
+                            <div class = "photos_card_4"></div>
+                        </div>
+                        <div class = "photo_row_2">
+                            <div class = "photos_card_5"></div>
+                            <div class = "photos_card_6"></div>
+                            <div class = "photos_card_7"></div>
+                            <div class = "photos_card_8"></div>
+                            <div class = "photos_card_9"></div>
+                        </div>
+                        <div class = "photo_row_3">
+                            <div class = "photos_card_10"></div>
+                            <div class = "photos_card_11"></div>
+                            <div class = "photos_card_12"></div>
+                            <div class = "photos_card_13"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "travel_history">
+                    <div class = "block_travel_history">
+                        <h2>Истории путешествий</h2>
+                        <p>Идейные соображения высшего порядка, а <br>также рамки и место обучения кадров</p>
+                    </div>
+                    <div class = "cards_history">
+                        <div class = "card_history_1">
+                            <div class = "card_history_text_1">
+                                <h3>Автостопом в Стамбул</h3>
+                                <p>Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает
+                                широкому кругу (специалистов) участие в формировании новых предложений:</p>
+                                <ul>
+                                    <li>Вкусная еда</li>
+                                    <li>Дешёвый транспорт</li>
+                                    <li>Красивый город</li>
+                                </ul>
+                            </div>
+                            <div class = "card_history_text_2">
+                                <input type ="button" name = "more_7" value = "Подробнее" id = "more_7" class = "button_more_7"> 
+                                <img src = "images/Vector.svg" width="22px" height="15px" class = "button_vector_7" alt=""> 
+                                <div class = "links_1">
+                                    <a href = "#" id = "checked_black2" >Instagram</a>
+                                    <a href = "#" id = "checked_black2">Facebook</a>
+                                    <a href = "#" id = "checked_black2">YouTube</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "card_history_2">
+                            <div class = "card_history_text_3">
+                                <h3>Автостопом в Стамбул</h3>
+                                <p>Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.</p>
+                            </div>
+                            <div class = "card_history_text_4">
+                                <input type ="button" name = "more_8" value = "Подробнее" id = "more_8" class = "button_more_8"> 
+                                <img src = "images/Vector.svg" width="22px" height="15px" class = "button_vector_8" alt=""> 
+                                <div class = "links_2">
+                                    <a href = "#" id = "checked_black2">Instagram</a>
+                                    <a href = "#" id = "checked_black2">ВКонтакте</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class = "card_history_3">
+                            <div class = "card_history_text_5">
+                                <h3>Автостопом в Стамбул</h3>
+                                <p>Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений.</p>
+                            </div>
+                            <div class = "card_history_text_6">
+                                <input type = "button" name = "more_9" value = "Подробнее" id = "more_9" class = "button_more_9">
+                                <img src = "images/Vector.svg" width="22px" height="15px" class = "button_vector_9" alt="">
+                                <div class = "links_3">
+                                    <a href = "" id = "checked_black2">Instagram</a>
+                                    <a href = "" id = "checked_black2">Facebook</a>
+                                    <a href = "" id = "checked_black2">ВКонтакте</a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <footer>
+                    <div class = "block_footer">
+                        <div class = "footer_photo"></div>
+                        <div class = "footer_text_block">
+                            <h3>Пора в путешествие вместе с нами!</h3>
+                            <p>Напиши на почту и узнай подробности на
+                            <a href = "">yourtour@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class = "block_end">
+                        <div class = "block_end_text">
+                            <p>Наши социальные сети</p>
+                            <div class = "block_end_text_links">
+                                <div class = "inst">
+                                    <img src = "images/inst.svg" width="14px" height="14px" class = "icon_instagram" alt="">
+                                    <a href = "" >instagram</a>
+                                </div>
+                                <div class = "facebook">
+                                    <img src = "images/facebook.svg" width="8px" height="17px" class = "icon_facebook" alt="">
+                                    <a href = "" >facebook</a>
+                                </div>
+                                <div class = "vk">
+                                    <img src = "images/vk.svg" width="20px" height="12px" class = "icon_vk" alt="">
+                                    <a href = "">vkontakte</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+              </div>
+            </div>
+          
+        </main>
+    </body>
+</html>
